@@ -2,7 +2,7 @@
 
 ---
 
-## point_in_view -- [source](../../LiftKit/LKCamera/LKCamera.gml#L6)
+## point_in_view -- [source](LiftKit/LKCamera/LKCamera.gml#L6)
 
 ```gml
 point_in_view(px, py, cam_id)

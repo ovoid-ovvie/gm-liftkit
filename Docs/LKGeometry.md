@@ -2,7 +2,7 @@
 
 ---
 
-## binary_search_distance -- [source](../../LiftKit/LKGeometry/LKGeometry.gml#L10)
+## binary_search_distance -- [source](LiftKit/LKGeometry/LKGeometry.gml#L10)
 
 ```gml
 binary_search_distance(start_x, start_y, target_x, target_y, obstacle_object, prec, notme, desired_precision)
@@ -36,7 +36,7 @@ var hit_y = y + lengthdir_y(dist, direction);
 
 ---
 
-## find_clear_direction -- [source](../../LiftKit/LKGeometry/LKGeometry.gml#L45)
+## find_clear_direction -- [source](LiftKit/LKGeometry/LKGeometry.gml#L45)
 
 ```gml
 find_clear_direction(dir, step, obj, max)
@@ -65,7 +65,7 @@ if ( clear != noone )
 
 ---
 
-## instance_place_array -- [source](../../LiftKit/LKGeometry/LKGeometry.gml#L129)
+## instance_place_array -- [source](LiftKit/LKGeometry/LKGeometry.gml#L129)
 
 ```gml
 instance_place_array(x, y, obj, array, ordered, replace)
@@ -86,7 +86,7 @@ Finds all instances colliding with the calling instance's collision mask at the 
 
 ---
 
-## instance_position_array -- [source](../../LiftKit/LKGeometry/LKGeometry.gml#L107)
+## instance_position_array -- [source](LiftKit/LKGeometry/LKGeometry.gml#L107)
 
 ```gml
 instance_position_array(x, y, obj, array, ordered, replace)
@@ -107,7 +107,7 @@ Finds all instances at the given position and populates an array with the result
 
 ---
 
-## instance_position_top -- [source](../../LiftKit/LKGeometry/LKGeometry.gml#L78)
+## instance_position_top -- [source](LiftKit/LKGeometry/LKGeometry.gml#L78)
 
 ```gml
 instance_position_top(x, y, obj)
@@ -125,7 +125,7 @@ Returns the instance at the given position with the least depth (i.e. visually o
 
 ---
 
-## collision_circle_array -- [source](../../LiftKit/LKGeometry/LKGeometry.gml#L178)
+## collision_circle_array -- [source](LiftKit/LKGeometry/LKGeometry.gml#L178)
 
 ```gml
 collision_circle_array(x, y, radius, obj, prec, notme, array, ordered, replace)
@@ -149,7 +149,7 @@ Finds all instances colliding with a circle and populates an array with the resu
 
 ---
 
-## collision_ellipse_array -- [source](../../LiftKit/LKGeometry/LKGeometry.gml#L256)
+## collision_ellipse_array -- [source](LiftKit/LKGeometry/LKGeometry.gml#L256)
 
 ```gml
 collision_ellipse_array(x1, y1, x2, y2, obj, prec, notme, array, ordered, replace)
@@ -174,7 +174,7 @@ Finds all instances colliding with an ellipse and populates an array with the re
 
 ---
 
-## collision_line_array -- [source](../../LiftKit/LKGeometry/LKGeometry.gml#L204)
+## collision_line_array -- [source](LiftKit/LKGeometry/LKGeometry.gml#L204)
 
 ```gml
 collision_line_array(x1, y1, x2, y2, obj, prec, notme, array, ordered, replace)
@@ -199,7 +199,7 @@ Finds all instances colliding with a line and populates an array with the result
 
 ---
 
-## collision_point_array -- [source](../../LiftKit/LKGeometry/LKGeometry.gml#L153)
+## collision_point_array -- [source](LiftKit/LKGeometry/LKGeometry.gml#L153)
 
 ```gml
 collision_point_array(x, y, obj, prec, notme, array, ordered, replace)
@@ -222,7 +222,7 @@ Finds all instances colliding with a point and populates an array with the resul
 
 ---
 
-## collision_rectangle_array -- [source](../../LiftKit/LKGeometry/LKGeometry.gml#L230)
+## collision_rectangle_array -- [source](LiftKit/LKGeometry/LKGeometry.gml#L230)
 
 ```gml
 collision_rectangle_array(x1, y1, x2, y2, obj, prec, notme, array, ordered, replace)

@@ -2,7 +2,7 @@
 
 ---
 
-## audio_play_sound_range -- [source](../../LiftKit/LKAudio/LKAudio.gml#L9)
+## audio_play_sound_range -- [source](LiftKit/LKAudio/LKAudio.gml#L9)
 
 ```gml
 audio_play_sound_range(sound, priority, loop, pitch_low, pitch_high, gain_low, gain_high)

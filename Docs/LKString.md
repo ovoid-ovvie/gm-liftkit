@@ -4,7 +4,7 @@ String utilities including a full case-insensitive counterpart family for GML's 
 
 ---
 
-## bool_stringify -- [source](../../LiftKit/LKString/LKString.gml#L7)
+## bool_stringify -- [source](LiftKit/LKString/LKString.gml#L7)
 
 ```gml
 bool_stringify(b, true_label, false_label)
@@ -28,7 +28,7 @@ bool_stringify(fullscreen, "Yes", "No")  // "Yes" or "No"
 
 ---
 
-## string_contains -- [source](../../LiftKit/LKString/LKString.gml#L32)
+## string_contains -- [source](LiftKit/LKString/LKString.gml#L32)
 
 ```gml
 string_contains(substr, str, case_sensitive)
@@ -46,7 +46,7 @@ Returns `true` if `str` contains `substr`. Case sensitive by default. Configurab
 
 ---
 
-## string_count_nocase -- [source](../../LiftKit/LKString/LKString.gml#L51)
+## string_count_nocase -- [source](LiftKit/LKString/LKString.gml#L51)
 
 ```gml
 string_count_nocase(substr, str)
@@ -63,7 +63,7 @@ Returns the number of occurrences of `substr` within `str`, case insensitively.
 
 ---
 
-## string_equals_nocase -- [source](../../LiftKit/LKString/LKString.gml#L63)
+## string_equals_nocase -- [source](LiftKit/LKString/LKString.gml#L63)
 
 ```gml
 string_equals_nocase(str1, str2)
@@ -80,7 +80,7 @@ Returns `true` if `str1` and `str2` are equal, ignoring case.
 
 ---
 
-## string_last_pos_nocase -- [source](../../LiftKit/LKString/LKString.gml#L166)
+## string_last_pos_nocase -- [source](LiftKit/LKString/LKString.gml#L166)
 
 ```gml
 string_last_pos_nocase(substr, str)
@@ -97,7 +97,7 @@ Returns the position of the last occurrence of `substr` within `str`, case insen
 
 ---
 
-## string_last_pos_ext_nocase -- [source](../../LiftKit/LKString/LKString.gml#L179)
+## string_last_pos_ext_nocase -- [source](LiftKit/LKString/LKString.gml#L179)
 
 ```gml
 string_last_pos_ext_nocase(substr, str, start_pos)
@@ -115,7 +115,7 @@ Returns the position of the last occurrence of `substr` within `str` at or befor
 
 ---
 
-## string_pad_full -- [source](../../LiftKit/LKString/LKString.gml#L102)
+## string_pad_full -- [source](LiftKit/LKString/LKString.gml#L102)
 
 ```gml
 string_pad_full(str, _len, char, bias_left, separator, force_separator)
@@ -142,7 +142,7 @@ string_pad_full("hi", 8, "-", true, " ")  // "-- hi --"
 
 ---
 
-## string_pad_left -- [source](../../LiftKit/LKString/LKString.gml#L74)
+## string_pad_left -- [source](LiftKit/LKString/LKString.gml#L74)
 
 ```gml
 string_pad_left(str, _len, char)
@@ -165,7 +165,7 @@ string_pad_left("42", 5, " ")   // "   42"
 
 ---
 
-## string_pad_right -- [source](../../LiftKit/LKString/LKString.gml#L87)
+## string_pad_right -- [source](LiftKit/LKString/LKString.gml#L87)
 
 ```gml
 string_pad_right(str, _len, char)
@@ -183,7 +183,7 @@ Pads `str` on the right with `char` until it reaches the target length. Returns 
 
 ---
 
-## string_pos_all -- [source](../../LiftKit/LKString/LKString.gml#L192)
+## string_pos_all -- [source](LiftKit/LKString/LKString.gml#L192)
 
 ```gml
 string_pos_all(substr, str, start_pos)
@@ -205,7 +205,7 @@ string_pos_all("a", "banana")   // [2, 4, 6]
 
 ---
 
-## string_pos_all_nocase -- [source](../../LiftKit/LKString/LKString.gml#L214)
+## string_pos_all_nocase -- [source](LiftKit/LKString/LKString.gml#L214)
 
 ```gml
 string_pos_all_nocase(substr, str, start_pos)
@@ -223,7 +223,7 @@ Returns an array of positions of every occurrence of `substr` within `str`, case
 
 ---
 
-## string_pos_nocase -- [source](../../LiftKit/LKString/LKString.gml#L141)
+## string_pos_nocase -- [source](LiftKit/LKString/LKString.gml#L141)
 
 ```gml
 string_pos_nocase(substr, str)
@@ -240,7 +240,7 @@ Returns the position of the first occurrence of `substr` within `str`, case inse
 
 ---
 
-## string_pos_ext_nocase -- [source](../../LiftKit/LKString/LKString.gml#L154)
+## string_pos_ext_nocase -- [source](LiftKit/LKString/LKString.gml#L154)
 
 ```gml
 string_pos_ext_nocase(substr, str, start_pos)
@@ -258,7 +258,7 @@ Returns the position of the first occurrence of `substr` within `str` at or afte
 
 ---
 
-## string_reverse -- [source](../../LiftKit/LKString/LKString.gml#L236)
+## string_reverse -- [source](LiftKit/LKString/LKString.gml#L236)
 
 ```gml
 string_reverse(str)
