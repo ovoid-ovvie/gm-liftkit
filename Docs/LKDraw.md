@@ -2,7 +2,7 @@
 
 ---
 
-## draw_rectangle_border -- [source](../../LiftKit/scripts/LKDraw/LKDraw.gml#L103)
+## draw_rectangle_border -- [source](../../LiftKit/LKDraw/LKDraw.gml#L103)
 
 ```gml
 draw_rectangle_border(x1, y1, x2, y2, thickness)
@@ -20,7 +20,7 @@ Draws the border of a rectangle with a given pixel thickness. Unlike GML's `draw
 
 ---
 
-## draw_reset -- [source](../../LiftKit/scripts/LKDraw/LKDraw.gml#L2)
+## draw_reset -- [source](../../LiftKit/LKDraw/LKDraw.gml#L2)
 
 ```gml
 draw_reset()
@@ -30,7 +30,7 @@ Resets all global draw state to defaults: alpha to `1`, colour to `c_white`, fon
 
 ---
 
-## draw_set_align -- [source](../../LiftKit/scripts/LKDraw/LKDraw.gml#L15)
+## draw_set_align -- [source](../../LiftKit/LKDraw/LKDraw.gml#L15)
 
 ```gml
 draw_set_align(halign, valign)
@@ -45,7 +45,7 @@ Sets both horizontal and vertical text alignment in a single call.
 
 ---
 
-## draw_text_aligned -- [source](../../LiftKit/scripts/LKDraw/LKDraw.gml#L74)
+## draw_text_aligned -- [source](../../LiftKit/LKDraw/LKDraw.gml#L74)
 
 ```gml
 draw_text_aligned(x, y, w, h, text, halign, valign)
@@ -65,7 +65,7 @@ Draws text aligned within a bounding box. Automatically calculates the correct d
 
 ---
 
-## draw_text_outline -- [source](../../LiftKit/scripts/LKDraw/LKDraw.gml#L50)
+## draw_text_outline -- [source](../../LiftKit/LKDraw/LKDraw.gml#L50)
 
 ```gml
 draw_text_outline(x, y, text, colour, outline_colour, thickness)
@@ -84,7 +84,7 @@ Draws text with a solid outline by drawing the text in the outline colour in all
 
 ---
 
-## draw_text_shadow -- [source](../../LiftKit/scripts/LKDraw/LKDraw.gml#L29)
+## draw_text_shadow -- [source](../../LiftKit/LKDraw/LKDraw.gml#L29)
 
 ```gml
 draw_text_shadow(x, y, text, shadow_x, shadow_y, shadow_colour, shadow_alpha)
@@ -104,7 +104,7 @@ Draws text with a shadow at a given offset. Preserves the current draw colour an
 
 ---
 
-## gui_x -- [source](../../LiftKit/scripts/LKDraw/LKDraw.gml#L115)
+## gui_x -- [source](../../LiftKit/LKDraw/LKDraw.gml#L115)
 
 ```gml
 gui_x(_x, camera_id)
@@ -121,7 +121,7 @@ Converts a world space X coordinate to GUI space for the given camera.
 
 ---
 
-## gui_y -- [source](../../LiftKit/scripts/LKDraw/LKDraw.gml#L124)
+## gui_y -- [source](../../LiftKit/LKDraw/LKDraw.gml#L124)
 
 ```gml
 gui_y(_y, camera_id)

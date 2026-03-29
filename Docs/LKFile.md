@@ -2,7 +2,7 @@
 
 ---
 
-## file_copy_safe -- [source](../../LiftKit/scripts/LKFile/LKFile.gml#L4)
+## file_copy_safe -- [source](../../LiftKit/LKFile/LKFile.gml#L4)
 
 ```gml
 file_copy_safe(fname, newname)
@@ -17,7 +17,7 @@ Copies a file to a new name, but only if the source file exists and no file with
 
 ---
 
-## file_read_all_text -- [source](../../LiftKit/scripts/LKFile/LKFile.gml#L15)
+## file_read_all_text -- [source](../../LiftKit/LKFile/LKFile.gml#L15)
 
 ```gml
 file_read_all_text(filename)
@@ -33,7 +33,7 @@ Returns the entire contents of a file as a string. Returns `undefined` if the fi
 
 ---
 
-## file_write_all_text -- [source](../../LiftKit/scripts/LKFile/LKFile.gml#L38)
+## file_write_all_text -- [source](../../LiftKit/LKFile/LKFile.gml#L38)
 
 ```gml
 file_write_all_text(filename, content)
@@ -48,7 +48,7 @@ Creates or overwrites a file with the given string content.
 
 ---
 
-## ini_read_bool -- [source](../../LiftKit/scripts/LKFile/LKFile.gml#L52)
+## ini_read_bool -- [source](../../LiftKit/LKFile/LKFile.gml#L52)
 
 ```gml
 ini_read_bool(section, key, _default, use_string)
@@ -67,7 +67,7 @@ Reads a boolean value from an open `.ini` file. Supports storing booleans as eit
 
 ---
 
-## ini_write_bool -- [source](../../LiftKit/scripts/LKFile/LKFile.gml#L72)
+## ini_write_bool -- [source](../../LiftKit/LKFile/LKFile.gml#L72)
 
 ```gml
 ini_write_bool(section, key, input_value, use_string)
@@ -84,7 +84,7 @@ Writes a boolean value to an open `.ini` file. Supports storing booleans as eith
 
 ---
 
-## json_load -- [source](../../LiftKit/scripts/LKFile/LKFile.gml#L92)
+## json_load -- [source](../../LiftKit/LKFile/LKFile.gml#L92)
 
 ```gml
 json_load(filename, filter, raw)
@@ -102,7 +102,7 @@ Loads and parses a JSON file into a GML value. Returns `undefined` if the file c
 
 ---
 
-## json_save -- [source](../../LiftKit/scripts/LKFile/LKFile.gml#L116)
+## json_save -- [source](../../LiftKit/LKFile/LKFile.gml#L116)
 
 ```gml
 json_save(filename, value, prettify, filter)

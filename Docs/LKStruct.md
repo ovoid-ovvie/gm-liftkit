@@ -2,7 +2,7 @@
 
 ---
 
-## struct_merge -- [source](../../LiftKit/scripts/LKStruct/LKStruct.gml#L20)
+## struct_merge -- [source](../../LiftKit/LKStruct/LKStruct.gml#L20)
 
 ```gml
 struct_merge(...)
@@ -25,7 +25,7 @@ var config = struct_merge(user_config, defaults);
 
 ---
 
-## variable_struct_get_values -- [source](../../LiftKit/scripts/LKStruct/LKStruct.gml#L5)
+## variable_struct_get_values -- [source](../../LiftKit/LKStruct/LKStruct.gml#L5)
 
 ```gml
 variable_struct_get_values(struct)

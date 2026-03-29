@@ -2,6 +2,18 @@
 
 A comprehensive GML utility library that extends the language with functions that are either missing from GML entirely, or exist but are verbose enough to warrant a clean shorthand.
 
+## Installation
+
+Go to the [Releases](../../releases) page and download the latest `.yymps` file.
+
+There are two ways to import the package:
+
+**Drag and drop** -- drag the `.yymps` file directly onto the GameMaker IDE and it will open the import window automatically.
+
+**Tools menu** -- open your project in GameMaker, go to `Tools > Import Local Package`, and browse to the downloaded `.yymps` file.
+
+Either way, an import window will open showing the package contents. Click `Add All` to select everything, then click `Import`.
+
 ## Modules
 
 | Module | Description |
