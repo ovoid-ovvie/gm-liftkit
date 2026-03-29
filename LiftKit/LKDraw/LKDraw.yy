@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LKDraw",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LKDraw",
+  "parent":{
+    "name":"LiftKit",
+    "path":"folders/LiftKit.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

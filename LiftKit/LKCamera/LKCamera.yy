@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LKCamera",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LKCamera",
+  "parent":{
+    "name":"LiftKit",
+    "path":"folders/LiftKit.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LKMath",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LKMath",
+  "parent":{
+    "name":"LiftKit",
+    "path":"folders/LiftKit.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

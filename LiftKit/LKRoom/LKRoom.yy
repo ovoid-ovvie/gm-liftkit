@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LKRoom",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LKRoom",
+  "parent":{
+    "name":"LiftKit",
+    "path":"folders/LiftKit.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

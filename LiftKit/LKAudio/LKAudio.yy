@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LKAudio",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LKAudio",
+  "parent":{
+    "name":"LiftKit",
+    "path":"folders/LiftKit.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

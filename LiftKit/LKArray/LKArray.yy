@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"LKArray",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"LKArray",
+  "parent":{
+    "name":"LiftKit",
+    "path":"folders/LiftKit.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
