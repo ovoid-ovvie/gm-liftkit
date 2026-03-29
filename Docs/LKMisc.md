@@ -2,7 +2,7 @@
 
 ---
 
-## frame -- [source](LiftKit/LKMisc/LKMisc.gml#L53)
+## frame -- [source](../LiftKit/LKMisc/LKMisc.gml#L53)
 
 ```gml
 frame(_frame)
@@ -28,7 +28,7 @@ if ( frame(3) )
 
 ---
 
-## is_defined -- [source](LiftKit/LKMisc/LKMisc.gml#L5)
+## is_defined -- [source](../LiftKit/LKMisc/LKMisc.gml#L5)
 
 ```gml
 is_defined(n)
@@ -44,7 +44,7 @@ Returns `true` if `n` is not nullish (neither `undefined` nor `pointer_null`), o
 
 ---
 
-## is_nullish -- [source](LiftKit/LKMisc/LKMisc.gml#L14)
+## is_nullish -- [source](../LiftKit/LKMisc/LKMisc.gml#L14)
 
 ```gml
 is_nullish(n)
@@ -60,7 +60,7 @@ Returns `true` if `n` is nullish (`undefined` or `pointer_null`), or `false` if 
 
 ---
 
-## unique -- [source](LiftKit/LKMisc/LKMisc.gml#L23)
+## unique -- [source](../LiftKit/LKMisc/LKMisc.gml#L23)
 
 ```gml
 unique(...)

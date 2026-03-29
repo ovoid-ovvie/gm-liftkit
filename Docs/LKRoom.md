@@ -2,7 +2,7 @@
 
 ---
 
-## room_goto_string -- [source](LiftKit/LKRoom/LKRoom.gml#L3)
+## room_goto_string -- [source](../LiftKit/LKRoom/LKRoom.gml#L3)
 
 ```gml
 room_goto_string(_room)

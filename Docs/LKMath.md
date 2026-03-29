@@ -17,7 +17,7 @@ This bridges a gap in GML where native functions like `max`, `min`, and `mean` a
 
 ---
 
-## abs_max -- [source](LiftKit/LKMath/LKMath.gml#L79)
+## abs_max -- [source](../LiftKit/LKMath/LKMath.gml#L79)
 
 ```gml
 abs_max(...)
@@ -33,7 +33,7 @@ Returns the highest absolute value from the supplied arguments. Returns `undefin
 
 ---
 
-## abs_min -- [source](LiftKit/LKMath/LKMath.gml#L114)
+## abs_min -- [source](../LiftKit/LKMath/LKMath.gml#L114)
 
 ```gml
 abs_min(...)
@@ -49,7 +49,7 @@ Returns the lowest absolute value from the supplied arguments. Returns `undefine
 
 ---
 
-## abs_multimean -- [source](LiftKit/LKMath/LKMath.gml#L253)
+## abs_multimean -- [source](../LiftKit/LKMath/LKMath.gml#L253)
 
 ```gml
 abs_multimean(...)
@@ -65,7 +65,7 @@ Returns the mean average of the absolute values of all supplied values. Returns 
 
 ---
 
-## abs_multimedian -- [source](LiftKit/LKMath/LKMath.gml#L326)
+## abs_multimedian -- [source](../LiftKit/LKMath/LKMath.gml#L326)
 
 ```gml
 abs_multimedian(...)
@@ -81,7 +81,7 @@ Returns the median of the absolute values of all supplied values. For an even nu
 
 ---
 
-## abs_multimode -- [source](LiftKit/LKMath/LKMath.gml#L422)
+## abs_multimode -- [source](../LiftKit/LKMath/LKMath.gml#L422)
 
 ```gml
 abs_multimode(...)
@@ -97,7 +97,7 @@ Returns an array of the most frequently occurring absolute values. If all values
 
 ---
 
-## abs_sum -- [source](LiftKit/LKMath/LKMath.gml#L758)
+## abs_sum -- [source](../LiftKit/LKMath/LKMath.gml#L758)
 
 ```gml
 abs_sum(...)
@@ -113,7 +113,7 @@ Returns the sum of the absolute values of all supplied arguments. Returns `undef
 
 ---
 
-## approach -- [source](LiftKit/LKMath/LKMath.gml#L38)
+## approach -- [source](../LiftKit/LKMath/LKMath.gml#L38)
 
 ```gml
 approach(current, target, step)
@@ -135,7 +135,7 @@ speed = approach(speed, max_speed, acceleration);
 
 ---
 
-## approach_angle -- [source](LiftKit/LKMath/LKMath.gml#L55)
+## approach_angle -- [source](../LiftKit/LKMath/LKMath.gml#L55)
 
 ```gml
 approach_angle(current, target, step)
@@ -153,7 +153,7 @@ Returns `current` angle moved toward `target` angle by `step` degrees, correctly
 
 ---
 
-## ceil_to -- [source](LiftKit/LKMath/LKMath.gml#L679)
+## ceil_to -- [source](../LiftKit/LKMath/LKMath.gml#L679)
 
 ```gml
 ceil_to(n, increment)
@@ -170,7 +170,7 @@ Rounds `n` up to the nearest multiple of `increment`.
 
 ---
 
-## digit_count -- [source](LiftKit/LKMath/LKMath.gml#L150)
+## digit_count -- [source](../LiftKit/LKMath/LKMath.gml#L150)
 
 ```gml
 digit_count(n, include_decimal)
@@ -187,7 +187,7 @@ Returns the number of digits in `n`. By default only counts digits before the de
 
 ---
 
-## eucdiv -- [source](LiftKit/LKMath/LKMath.gml#L27)
+## eucdiv -- [source](../LiftKit/LKMath/LKMath.gml#L27)
 
 ```gml
 eucdiv(dividend, divisor)
@@ -204,7 +204,7 @@ Returns the integer quotient of the Euclidean division of `dividend` by `divisor
 
 ---
 
-## eucmod -- [source](LiftKit/LKMath/LKMath.gml#L5)
+## eucmod -- [source](../LiftKit/LKMath/LKMath.gml#L5)
 
 ```gml
 eucmod(dividend, divisor)
@@ -226,7 +226,7 @@ eucmod(7, 4)   // 3
 
 ---
 
-## floor_to -- [source](LiftKit/LKMath/LKMath.gml#L669)
+## floor_to -- [source](../LiftKit/LKMath/LKMath.gml#L669)
 
 ```gml
 floor_to(n, increment)
@@ -243,7 +243,7 @@ Rounds `n` down to the nearest multiple of `increment`.
 
 ---
 
-## is_between -- [source](LiftKit/LKMath/LKMath.gml#L186)
+## is_between -- [source](../LiftKit/LKMath/LKMath.gml#L186)
 
 ```gml
 is_between(n, r1, r2, exclusive)
@@ -262,7 +262,7 @@ Returns `true` if `n` falls within the range `r1` to `r2`. Inclusive of bounds b
 
 ---
 
-## is_even -- [source](LiftKit/LKMath/LKMath.gml#L202)
+## is_even -- [source](../LiftKit/LKMath/LKMath.gml#L202)
 
 ```gml
 is_even(n)
@@ -278,7 +278,7 @@ Returns `true` if `n` is even, or `false` if odd.
 
 ---
 
-## is_whole -- [source](LiftKit/LKMath/LKMath.gml#L211)
+## is_whole -- [source](../LiftKit/LKMath/LKMath.gml#L211)
 
 ```gml
 is_whole(n)
@@ -294,7 +294,7 @@ Returns `true` if `n` is a whole number with no fractional component.
 
 ---
 
-## multimean -- [source](LiftKit/LKMath/LKMath.gml#L220)
+## multimean -- [source](../LiftKit/LKMath/LKMath.gml#L220)
 
 ```gml
 multimean(...)
@@ -310,7 +310,7 @@ Returns the mean average of all supplied values. Returns `undefined` if no argum
 
 ---
 
-## multimedian -- [source](LiftKit/LKMath/LKMath.gml#L286)
+## multimedian -- [source](../LiftKit/LKMath/LKMath.gml#L286)
 
 ```gml
 multimedian(...)
@@ -326,7 +326,7 @@ Returns the median of all supplied values. For an even number of values, returns
 
 ---
 
-## multideviation -- [source](LiftKit/LKMath/LKMath.gml#L478)
+## multideviation -- [source](../LiftKit/LKMath/LKMath.gml#L478)
 
 ```gml
 multideviation(...)
@@ -342,7 +342,7 @@ Returns the standard deviation of all supplied values. Returns `undefined` if no
 
 ---
 
-## multimode -- [source](LiftKit/LKMath/LKMath.gml#L366)
+## multimode -- [source](../LiftKit/LKMath/LKMath.gml#L366)
 
 ```gml
 multimode(...)
@@ -358,7 +358,7 @@ Returns an array of the most frequently occurring values. If all values are equa
 
 ---
 
-## neg -- [source](LiftKit/LKMath/LKMath.gml#L521)
+## neg -- [source](../LiftKit/LKMath/LKMath.gml#L521)
 
 ```gml
 neg(val)
@@ -374,7 +374,7 @@ Returns the negative absolute value of `val`. If `val` is already negative it is
 
 ---
 
-## normalise / normalize -- [source](LiftKit/LKMath/LKMath.gml#L533)
+## normalise / normalize -- [source](../LiftKit/LKMath/LKMath.gml#L533)
 
 ```gml
 normalise(n, _min, _max, _clamp)
@@ -399,7 +399,7 @@ draw_rectangle(bar_x, bar_y, bar_x + bar_w * fill, bar_y + bar_h, false);
 
 ---
 
-## oscillate -- [source](LiftKit/LKMath/LKMath.gml#L558)
+## oscillate -- [source](../LiftKit/LKMath/LKMath.gml#L558)
 
 ```gml
 oscillate(time, _speed, _min, _max)
@@ -423,7 +423,7 @@ y = base_y + oscillate(current_time / 1000, 2, -4, 4);
 
 ---
 
-## remap -- [source](LiftKit/LKMath/LKMath.gml#L571)
+## remap -- [source](../LiftKit/LKMath/LKMath.gml#L571)
 
 ```gml
 remap(n, in_min, in_max, out_min, out_max)
@@ -448,7 +448,7 @@ var speed = remap(difficulty, 0, 10, 100, 300);
 
 ---
 
-## round_standard -- [source](LiftKit/LKMath/LKMath.gml#L581)
+## round_standard -- [source](../LiftKit/LKMath/LKMath.gml#L581)
 
 ```gml
 round_standard(n, away)
@@ -465,7 +465,7 @@ Rounds `n` to the nearest integer without banker's rounding. For half-integers, 
 
 ---
 
-## round_standard_half_down -- [source](LiftKit/LKMath/LKMath.gml#L613)
+## round_standard_half_down -- [source](../LiftKit/LKMath/LKMath.gml#L613)
 
 ```gml
 round_standard_half_down(n)
@@ -487,7 +487,7 @@ Rounds `n` to the nearest integer, with half-integers always rounding toward neg
 
 ---
 
-## round_standard_half_up -- [source](LiftKit/LKMath/LKMath.gml#L597)
+## round_standard_half_up -- [source](../LiftKit/LKMath/LKMath.gml#L597)
 
 ```gml
 round_standard_half_up(n)
@@ -509,7 +509,7 @@ Rounds `n` to the nearest integer, with half-integers always rounding toward pos
 
 ---
 
-## round_to -- [source](LiftKit/LKMath/LKMath.gml#L659)
+## round_to -- [source](../LiftKit/LKMath/LKMath.gml#L659)
 
 ```gml
 round_to(n, increment)
@@ -531,7 +531,7 @@ round_to(38, 5)   // 40
 
 ---
 
-## round_to_dec -- [source](LiftKit/LKMath/LKMath.gml#L630)
+## round_to_dec -- [source](../LiftKit/LKMath/LKMath.gml#L630)
 
 ```gml
 round_to_dec(n, digits)
@@ -548,7 +548,7 @@ Rounds `n` to a given number of decimal places. Returns `undefined` if an error 
 
 ---
 
-## sign_flip -- [source](LiftKit/LKMath/LKMath.gml#L688)
+## sign_flip -- [source](../LiftKit/LKMath/LKMath.gml#L688)
 
 ```gml
 sign_flip(n)
@@ -564,7 +564,7 @@ Flips the sign of `n`. Positive values become negative and negative values becom
 
 ---
 
-## sign_nonzero -- [source](LiftKit/LKMath/LKMath.gml#L699)
+## sign_nonzero -- [source](../LiftKit/LKMath/LKMath.gml#L699)
 
 ```gml
 sign_nonzero(n, negative_if_zero)
@@ -581,7 +581,7 @@ Returns the sign of `n` as either `1` or `-1`, never `0`. Configurable via [`__L
 
 ---
 
-## snap_to_grid -- [source](LiftKit/LKMath/LKMath.gml#L717)
+## snap_to_grid -- [source](../LiftKit/LKMath/LKMath.gml#L717)
 
 ```gml
 snap_to_grid(n, grid_size, offset)
@@ -604,7 +604,7 @@ snap_to_grid(37, 16, 8)   // 40  (grid offset by 8)
 
 ---
 
-## sum -- [source](LiftKit/LKMath/LKMath.gml#L726)
+## sum -- [source](../LiftKit/LKMath/LKMath.gml#L726)
 
 ```gml
 sum(...)
@@ -620,7 +620,7 @@ Returns the sum of all supplied arguments. Returns `undefined` if a non-numeric 
 
 ---
 
-## to_dec -- [source](LiftKit/LKMath/LKMath.gml#L802)
+## to_dec -- [source](../LiftKit/LKMath/LKMath.gml#L802)
 
 ```gml
 to_dec(n, _clamp)
@@ -637,7 +637,7 @@ Converts a percentage to a decimal. Clamps the input to 0–100 by default. Conf
 
 ---
 
-## to_pct -- [source](LiftKit/LKMath/LKMath.gml#L791)
+## to_pct -- [source](../LiftKit/LKMath/LKMath.gml#L791)
 
 ```gml
 to_pct(n, _clamp)
@@ -654,7 +654,7 @@ Converts a decimal to a percentage. Clamps the input to 0–1 by default. Config
 
 ---
 
-## to_seconds -- [source](LiftKit/LKMath/LKMath.gml#L821)
+## to_seconds -- [source](../LiftKit/LKMath/LKMath.gml#L821)
 
 ```gml
 to_seconds(steps, type)
@@ -671,7 +671,7 @@ Converts a number of steps to the equivalent duration in seconds at the current 
 
 ---
 
-## to_steps -- [source](LiftKit/LKMath/LKMath.gml#L812)
+## to_steps -- [source](../LiftKit/LKMath/LKMath.gml#L812)
 
 ```gml
 to_steps(seconds, type)
@@ -693,7 +693,7 @@ timer = to_steps(3);
 
 ---
 
-## trunc -- [source](LiftKit/LKMath/LKMath.gml#L830)
+## trunc -- [source](../LiftKit/LKMath/LKMath.gml#L830)
 
 ```gml
 trunc(n)
@@ -714,7 +714,7 @@ Removes the fractional component of `n`, rounding toward zero. Unlike `floor`, n
 
 ---
 
-## wrap -- [source](LiftKit/LKMath/LKMath.gml#L841)
+## wrap -- [source](../LiftKit/LKMath/LKMath.gml#L841)
 
 ```gml
 wrap(n, _min, _max)
