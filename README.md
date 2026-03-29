@@ -1,6 +1,6 @@
 # GMLiftKit
 
-A comprehensive GML utility library that extends the language with functions that are either missing from GML entirely, or exist but are verbose enough to warrant a clean shorthand.
+A comprehensive GML utility library that extends the language with functions that are either missing from GML, or exist but are verbose enough to warrant shorthand.
 
 ## Installation
 
@@ -42,7 +42,7 @@ See [Configuration](Docs/LKConfig.md) for a full list of configurable defaults.
 
 GMLiftKit follows two core principles:
 
-**Hard things made easy.** Functions like `binary_search_distance`, the `weighted_roll` family, and the `array_equalise` suite solve problems that are genuinely difficult or tedious to implement correctly from scratch.
+**Hard things made easy.** Functions like `binary_search_distance`, the `weighted_roll` family, and the `array_equalise` suite solve problems that are difficult or tedious to implement correctly from scratch.
 
 **Verbose things made readable.** Functions like `to_steps`, `is_between`, `rand_chance`, and `neg` do things GML can already do -- but `to_steps(2.5)` communicates intent instantly in a way that `2.5 * game_get_speed(gamespeed_fps)` does not.
 
@@ -57,4 +57,4 @@ multimean(1, my_array, 3)        // mixed
 multimean(array_a, array_b)      // multiple arrays
 ```
 
-GML's native functions like `max`, `min`, and `mean` are variadic only and don't accept arrays. GMLiftKit bridges this gap consistently across the entire math module.
+GML's native functions like `max`, `min`, and `mean` are variadic only and don't accept arrays. GMLiftKit bridges this gap.
