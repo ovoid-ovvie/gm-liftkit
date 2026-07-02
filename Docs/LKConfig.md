@@ -2,6 +2,14 @@
 
 GMLiftKit's default values for optional parameters are defined as macros in `__LKConfig`. Edit this file to set your preferred defaults project-wide.
 
+## Array
+
+Default for [`array_sample`](LKArray.md#array_sample).
+
+```gml
+#macro LK_ARRAY_SAMPLE_REPLACE_DEFAULT false
+```
+
 ## Audio
 
 Defaults for [`audio_play_sound_range`](LKAudio.md#audio_play_sound_range).
@@ -60,14 +68,32 @@ Default for [`rand_chance`](LKRandom.md#rand_chance).
 
 ## String
 
-Defaults for [`bool_stringify`](LKString.md#bool_stringify), [`string_contains`](LKString.md#string_contains), and [`string_pad_full`](LKString.md#string_pad_full).
+Defaults for [`bool_stringify`](LKString.md#bool_stringify), [`string_contains`](LKString.md#string_contains), [`string_pad_full`](LKString.md#string_pad_full), [`string_sanitise`](LKString.md#string_sanitise-string_sanitize), [`stringdist_find_closest`](LKString.md#stringdist_find_closest), [`stringdist_find_closest_multi`](LKString.md#stringdist_find_closest_multi), and [`string_truncate`](LKString.md#string_truncate).
 
 ```gml
 #macro LK_BOOL_STRINGIFY_DEFAULT_IF_TRUE   "true"
-#macro LK_BOOL_STRINGIFY_DEFAULT_IF_FALSE  "false"
+#macro LK_BOOL_STRINGIFY_DEFAULT_IF_FALSE "false"
 
 #macro LK_STRING_CONTAINS_CASE_SENSITIVE_DEFAULT true
 
 #macro LK_STRING_PAD_FULL_BIAS_LEFT_DEFAULT        true
 #macro LK_STRING_PAD_FULL_FORCE_SEPARATOR_DEFAULT  false
+
+#macro LK_STRING_SANITISE_FILL_DEFAULT           ""
+#macro LK_STRING_SANITISE_REMOVE_SLASHES_DEFAULT false
+#macro LK_STRING_SANITISE_REMOVE_QUOTES_DEFAULT  false
+#macro LK_STRING_SANITISE_EXCEPTIONS_DEFAULT     []
+
+#macro LK_STRINGDIST_FIND_CLOSEST_THRESHOLD_DEFAULT       2
+#macro LK_STRINGIDST_FIND_CLOSEST_MULTI_THRESHOLD_DEFAULT 2
+
+#macro LK_STRING_TRUNCATE_SUFFIX_DEFAULT "..."
+```
+
+## Struct
+
+Default for [`variable_struct_get_names_alphabetical`](LKStruct.md#variable_struct_get_names_alphabetical).
+
+```gml
+#macro LK_VARIABLE_STRUCT_GET_NAMES_ALPHABETICAL_ASCENDING_DEFAULT true
 ```

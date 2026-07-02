@@ -22,6 +22,8 @@ Either way, an import window will open showing the package contents. Click `Add 
 | [Audio](Docs/LKAudio.md) | Sound playback with randomised pitch and gain ranges |
 | [Camera](Docs/LKCamera.md) | Camera and view utilities |
 | [Draw](Docs/LKDraw.md) | Drawing utilities for text, shapes, and coordinate conversion |
+| [DS List](Docs/LKDsList.md) | Utilities for converting between DS Lists and arrays |
+| [DS Map](Docs/LKDsMap.md) | Utilities for converting DS Maps to structs |
 | [File](Docs/LKFile.md) | File I/O, INI, and JSON utilities |
 | [Geometry](Docs/LKGeometry.md) | Spatial utilities including binary search distance and array-returning collision functions |
 | [Layer](Docs/LKLayer.md) | Layer element destruction utilities |
@@ -29,7 +31,7 @@ Either way, an import window will open showing the package contents. Click `Add 
 | [Misc](Docs/LKMisc.md) | Miscellaneous utilities |
 | [Random](Docs/LKRandom.md) | Probability and weighted random roll functions |
 | [Room](Docs/LKRoom.md) | Room navigation utilities |
-| [String](Docs/LKString.md) | String utilities including a full case-insensitive function family |
+| [String](Docs/LKString.md) | String utilities including a full case-insensitive function family and string distance functions |
 | [Struct](Docs/LKStruct.md) | Struct utilities |
 
 ## Configuration

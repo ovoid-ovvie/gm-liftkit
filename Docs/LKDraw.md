@@ -2,7 +2,49 @@
 
 ---
 
-## draw_rectangle_border -- [source](../LiftKit/LKDraw/LKDraw.gml#L103)
+## draw_arrow
+
+[source](../../LiftKit/__LKDraw/__LKDraw.gml#L156)
+
+```gml
+draw_arrow(x1, y1, x2, y2, head_size, thickness)
+```
+
+Draws a line from one point to another with an arrowhead at the endpoint.
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `x1` | `Real` | The x position of the arrow's start. |
+| `y1` | `Real` | The y position of the arrow's start. |
+| `x2` | `Real` | The x position of the arrow's end (where the head is). |
+| `y2` | `Real` | The y position of the arrow's end. |
+| `head_size` | `Real` | The size of the arrowhead in pixels. |
+| `thickness` | `Real` | *(optional)* The thickness of the arrow line. Defaults to `1`. |
+
+---
+
+## draw_circle_border
+
+[source](../../LiftKit/__LKDraw/__LKDraw.gml#L134)
+
+```gml
+draw_circle_border(x, y, radius, thickness)
+```
+
+Draws the border of a circle with a given pixel thickness. GML's `draw_circle` with `outline` set to `true` only draws a one-pixel border -- this lets you go thicker.
+
+| Parameter | Type | Description |
+|-----------|------|-------------|
+| `x` | `Real` | The x position of the circle's centre. |
+| `y` | `Real` | The y position of the circle's centre. |
+| `radius` | `Real` | The radius of the circle. |
+| `thickness` | `Real` | The border thickness in pixels. |
+
+---
+
+## draw_rectangle_border
+
+[source](../../LiftKit/__LKDraw/__LKDraw.gml#L103)
 
 ```gml
 draw_rectangle_border(x1, y1, x2, y2, thickness)
@@ -20,7 +62,9 @@ Draws the border of a rectangle with a given pixel thickness. Unlike GML's `draw
 
 ---
 
-## draw_reset -- [source](../LiftKit/LKDraw/LKDraw.gml#L2)
+## draw_reset
+
+[source](../../LiftKit/__LKDraw/__LKDraw.gml#L2)
 
 ```gml
 draw_reset()
@@ -30,7 +74,9 @@ Resets all global draw state to defaults: alpha to `1`, colour to `c_white`, fon
 
 ---
 
-## draw_set_align -- [source](../LiftKit/LKDraw/LKDraw.gml#L15)
+## draw_set_align
+
+[source](../../LiftKit/__LKDraw/__LKDraw.gml#L15)
 
 ```gml
 draw_set_align(halign, valign)
@@ -45,7 +91,9 @@ Sets both horizontal and vertical text alignment in a single call.
 
 ---
 
-## draw_text_aligned -- [source](../LiftKit/LKDraw/LKDraw.gml#L74)
+## draw_text_aligned
+
+[source](../../LiftKit/__LKDraw/__LKDraw.gml#L74)
 
 ```gml
 draw_text_aligned(x, y, w, h, text, halign, valign)
@@ -65,7 +113,9 @@ Draws text aligned within a bounding box. Automatically calculates the correct d
 
 ---
 
-## draw_text_outline -- [source](../LiftKit/LKDraw/LKDraw.gml#L50)
+## draw_text_outline
+
+[source](../../LiftKit/__LKDraw/__LKDraw.gml#L50)
 
 ```gml
 draw_text_outline(x, y, text, colour, outline_colour, thickness)
@@ -84,7 +134,9 @@ Draws text with a solid outline by drawing the text in the outline colour in all
 
 ---
 
-## draw_text_shadow -- [source](../LiftKit/LKDraw/LKDraw.gml#L29)
+## draw_text_shadow
+
+[source](../../LiftKit/__LKDraw/__LKDraw.gml#L29)
 
 ```gml
 draw_text_shadow(x, y, text, shadow_x, shadow_y, shadow_colour, shadow_alpha)
@@ -104,7 +156,9 @@ Draws text with a shadow at a given offset. Preserves the current draw colour an
 
 ---
 
-## gui_x -- [source](../LiftKit/LKDraw/LKDraw.gml#L115)
+## gui_x
+
+[source](../../LiftKit/__LKDraw/__LKDraw.gml#L115)
 
 ```gml
 gui_x(_x, camera_id)
@@ -121,7 +175,9 @@ Converts a world space X coordinate to GUI space for the given camera.
 
 ---
 
-## gui_y -- [source](../LiftKit/LKDraw/LKDraw.gml#L124)
+## gui_y
+
+[source](../../LiftKit/__LKDraw/__LKDraw.gml#L124)
 
 ```gml
 gui_y(_y, camera_id)
