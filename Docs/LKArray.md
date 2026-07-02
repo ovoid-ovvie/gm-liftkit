@@ -6,7 +6,7 @@ Array utilities with subsection support, equalisation, zip/unzip, and more.
 
 ## array_chunk
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L14)
+[source](../LiftKit/__LKArray/__LKArray.gml#L14)
 
 ```gml
 array_chunk(arr, size)
