@@ -4,7 +4,7 @@
 
 ## frame
 
-[source](../../LiftKit/__LKMisc/__LKMisc.gml#L53)
+[source](../LiftKit/__LKMisc/__LKMisc.gml#L53)
 
 ```gml
 frame(_frame)
@@ -32,7 +32,7 @@ if ( frame(3) )
 
 ## is_defined
 
-[source](../../LiftKit/__LKMisc/__LKMisc.gml#L5)
+[source](../LiftKit/__LKMisc/__LKMisc.gml#L5)
 
 ```gml
 is_defined(n)
@@ -50,7 +50,7 @@ Returns `true` if `n` is not nullish (neither `undefined` nor `pointer_null`), o
 
 ## is_nullish
 
-[source](../../LiftKit/__LKMisc/__LKMisc.gml#L14)
+[source](../LiftKit/__LKMisc/__LKMisc.gml#L14)
 
 ```gml
 is_nullish(n)
@@ -68,7 +68,7 @@ Returns `true` if `n` is nullish (`undefined` or `pointer_null`), or `false` if 
 
 ## surface_verify
 
-[source](../../LiftKit/__LKMisc/__LKMisc.gml#L62)
+[source](../LiftKit/__LKMisc/__LKMisc.gml#L62)
 
 ```gml
 surface_verify(surface, width, height)
@@ -99,7 +99,7 @@ surface_reset_target();
 
 ## debug_trace
 
-[source](../../LiftKit/__LKMisc/__LKMisc.gml#L77)
+[source](../LiftKit/__LKMisc/__LKMisc.gml#L77)
 
 ```gml
 debug_trace(...)
@@ -123,7 +123,7 @@ debug_trace("hp:", hp, "max:", max_hp);
 
 ## debug_assert
 
-[source](../../LiftKit/__LKMisc/__LKMisc.gml#L96)
+[source](../LiftKit/__LKMisc/__LKMisc.gml#L96)
 
 ```gml
 debug_assert(...)
@@ -146,7 +146,7 @@ if ( !is_struct(data) )
 
 ## exception_concat
 
-[source](../../LiftKit/__LKMisc/__LKMisc.gml#L123)
+[source](../LiftKit/__LKMisc/__LKMisc.gml#L123)
 
 ```gml
 exception_concat(exception)
@@ -175,7 +175,7 @@ catch (_exception)
 
 ## unique
 
-[source](../../LiftKit/__LKMisc/__LKMisc.gml#L23)
+[source](../LiftKit/__LKMisc/__LKMisc.gml#L23)
 
 ```gml
 unique(...)

@@ -6,7 +6,7 @@ Array utilities with subsection support, equalisation, zip/unzip, and more.
 
 ## array_chunk
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L14)
+[source](../LiftKit/__LKArray/__LKArray.gml#L14)
 
 ```gml
 array_chunk(arr, size)
@@ -30,7 +30,7 @@ var chunks = array_chunk([1,2,3,4,5], 2);
 
 ## array_count_if
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L942)
+[source](../LiftKit/__LKArray/__LKArray.gml#L942)
 
 ```gml
 array_count_if(array, predicate, offset, length)
@@ -55,7 +55,7 @@ var alive_count = array_count_if(enemies, function(e) { return e.hp > 0; });
 
 ## array_cull
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L132)
+[source](../LiftKit/__LKArray/__LKArray.gml#L132)
 
 ```gml
 array_cull(array, limit)
@@ -74,7 +74,7 @@ Returns a copy of the array with the oldest (first) elements removed until it is
 
 ## array_cull_ext
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L151)
+[source](../LiftKit/__LKArray/__LKArray.gml#L151)
 
 ```gml
 array_cull_ext(array, limit)
@@ -91,7 +91,7 @@ Removes the oldest (first) elements from an array if it exceeds the limit. Unlik
 
 ## array_empty
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L5)
+[source](../LiftKit/__LKArray/__LKArray.gml#L5)
 
 ```gml
 array_empty(array)
@@ -109,7 +109,7 @@ Returns `true` if the array has no elements, or `false` if it contains at least 
 
 ## array_equalise_to_max
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L439)
+[source](../LiftKit/__LKArray/__LKArray.gml#L439)
 
 ```gml
 array_equalise_to_max(arr)
@@ -127,7 +127,7 @@ Returns a new array with all values set to the highest value in the original arr
 
 ## array_equalise_to_max_budget
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L462)
+[source](../LiftKit/__LKArray/__LKArray.gml#L462)
 
 ```gml
 array_equalise_to_max_budget(arr, budget, overflow)
@@ -147,7 +147,7 @@ Raises the lowest values in an array toward the highest value, spending a limite
 
 ## array_equalise_to_max_budget_ext
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L520)
+[source](../LiftKit/__LKArray/__LKArray.gml#L520)
 
 ```gml
 array_equalise_to_max_budget_ext(arr, budget, overflow)
@@ -165,7 +165,7 @@ Raises the lowest values in an array toward the highest value, spending a limite
 
 ## array_equalise_to_max_ext
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L446)
+[source](../LiftKit/__LKArray/__LKArray.gml#L446)
 
 ```gml
 array_equalise_to_max_ext(arr)
@@ -181,7 +181,7 @@ Sets all values in an array to the highest value in that array. Unlike `array_eq
 
 ## array_equalise_to_min
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L577)
+[source](../LiftKit/__LKArray/__LKArray.gml#L577)
 
 ```gml
 array_equalise_to_min(arr)
@@ -199,7 +199,7 @@ Returns a new array with all values set to the lowest value in the original arra
 
 ## array_equalise_to_min_budget
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L600)
+[source](../LiftKit/__LKArray/__LKArray.gml#L600)
 
 ```gml
 array_equalise_to_min_budget(arr, budget, underflow)
@@ -219,7 +219,7 @@ Decreases the highest values in an array toward the lowest value, spending a lim
 
 ## array_equalise_to_min_budget_ext
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L658)
+[source](../LiftKit/__LKArray/__LKArray.gml#L658)
 
 ```gml
 array_equalise_to_min_budget_ext(arr, budget, underflow)
@@ -237,7 +237,7 @@ Decreases the highest values in an array toward the lowest value, spending a lim
 
 ## array_equalise_to_min_ext
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L584)
+[source](../LiftKit/__LKArray/__LKArray.gml#L584)
 
 ```gml
 array_equalise_to_min_ext(arr)
@@ -253,7 +253,7 @@ Sets all values in an array to the lowest value in that array. Unlike `array_equ
 
 ## array_find_index_all
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L852)
+[source](../LiftKit/__LKArray/__LKArray.gml#L852)
 
 ```gml
 array_find_index_all(array, value, offset, length)
@@ -279,7 +279,7 @@ var positions = array_find_index_all(tiles, TILE.WATER);
 
 ## array_flatten
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L39)
+[source](../LiftKit/__LKArray/__LKArray.gml#L39)
 
 ```gml
 array_flatten(array)
@@ -302,7 +302,7 @@ var flat = array_flatten([1, [2, [3, 4]], 5]);
 
 ## array_get_random
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L69)
+[source](../LiftKit/__LKArray/__LKArray.gml#L69)
 
 ```gml
 array_get_random(array, offset, length)
@@ -322,7 +322,7 @@ Returns a random element from the array or a subsection of it. Returns `undefine
 
 ## array_index_max
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L403)
+[source](../LiftKit/__LKArray/__LKArray.gml#L403)
 
 ```gml
 array_index_max(array, offset, length)
@@ -342,7 +342,7 @@ Returns the index of the highest value in an array or subsection of one. Returns
 
 ## array_index_min
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L365)
+[source](../LiftKit/__LKArray/__LKArray.gml#L365)
 
 ```gml
 array_index_min(array, offset, length)
@@ -362,7 +362,7 @@ Returns the index of the lowest value in an array or subsection of one. Returns 
 
 ## array_insert_ext
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L188)
+[source](../LiftKit/__LKArray/__LKArray.gml#L188)
 
 ```gml
 array_insert_ext(dest, index, source, offset, length)
@@ -382,7 +382,7 @@ Inserts elements from one array into another at a specified index.
 
 ## array_max
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L288)
+[source](../LiftKit/__LKArray/__LKArray.gml#L288)
 
 ```gml
 array_max(array, offset, length)
@@ -402,7 +402,7 @@ Returns the highest value in an array or subsection of one. Returns `0` if the a
 
 ## array_min
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L326)
+[source](../LiftKit/__LKArray/__LKArray.gml#L326)
 
 ```gml
 array_min(array, offset, length)
@@ -422,7 +422,7 @@ Returns the lowest value in an array or subsection of one. Returns `0` if the ar
 
 ## array_partition
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L891)
+[source](../LiftKit/__LKArray/__LKArray.gml#L891)
 
 ```gml
 array_partition(array, predicate, offset, length)
@@ -449,7 +449,7 @@ var dead  = result[1];
 
 ## array_pop_random
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L100)
+[source](../LiftKit/__LKArray/__LKArray.gml#L100)
 
 ```gml
 array_pop_random(array, offset, length)
@@ -469,7 +469,7 @@ Removes and returns a random element from the array or a subsection of it. Modif
 
 ## array_push_cull
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L229)
+[source](../LiftKit/__LKArray/__LKArray.gml#L229)
 
 ```gml
 array_push_cull(array, limit, ...)
@@ -487,7 +487,7 @@ Pushes any number of values onto the end of an array, then removes the oldest (f
 
 ## array_push_ext
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L166)
+[source](../LiftKit/__LKArray/__LKArray.gml#L166)
 
 ```gml
 array_push_ext(dest, source, offset, length)
@@ -506,7 +506,7 @@ Pushes elements from one array onto the end of another.
 
 ## array_push_limit
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L261)
+[source](../LiftKit/__LKArray/__LKArray.gml#L261)
 
 ```gml
 array_push_limit(array, limit, ...)
@@ -524,7 +524,7 @@ Pushes any number of values onto the end of the given array, but only up to the 
 
 ## array_sample
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L785)
+[source](../LiftKit/__LKArray/__LKArray.gml#L785)
 
 ```gml
 array_sample(array, n, replace)
@@ -549,7 +549,7 @@ var drops = array_sample(loot_table, 3);
 
 ## array_unzip
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L755)
+[source](../LiftKit/__LKArray/__LKArray.gml#L755)
 
 ```gml
 array_unzip(array)
@@ -567,7 +567,7 @@ Splits an array of sub-arrays into an array of arrays, one per column. The inver
 
 ## array_zip
 
-[source](../../LiftKit/__LKArray/__LKArray.gml#L716)
+[source](../LiftKit/__LKArray/__LKArray.gml#L716)
 
 ```gml
 array_zip(fill, ...)

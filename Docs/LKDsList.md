@@ -6,7 +6,7 @@ Utilities for working with DS Lists alongside arrays.
 
 ## ds_list_add_from_array
 
-[source](../../LiftKit/__LKDsList/__LKDsList.gml#L25)
+[source](../LiftKit/__LKDsList/__LKDsList.gml#L25)
 
 ```gml
 ds_list_add_from_array(list, array)
@@ -23,7 +23,7 @@ Adds all elements from an array to an existing DS List.
 
 ## ds_list_add_to_array
 
-[source](../../LiftKit/__LKDsList/__LKDsList.gml#L47)
+[source](../LiftKit/__LKDsList/__LKDsList.gml#L47)
 
 ```gml
 ds_list_add_to_array(list, array)
@@ -40,7 +40,7 @@ Adds all elements from a DS List to an existing array.
 
 ## ds_list_create_from_array
 
-[source](../../LiftKit/__LKDsList/__LKDsList.gml#L37)
+[source](../LiftKit/__LKDsList/__LKDsList.gml#L37)
 
 ```gml
 ds_list_create_from_array(array)
@@ -64,7 +64,7 @@ ds_list_destroy(list);
 
 ## ds_list_to_array
 
-[source](../../LiftKit/__LKDsList/__LKDsList.gml#L6)
+[source](../LiftKit/__LKDsList/__LKDsList.gml#L6)
 
 ```gml
 ds_list_to_array(list, destroy)

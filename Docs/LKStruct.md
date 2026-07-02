@@ -4,7 +4,7 @@
 
 ## struct_contains_value
 
-[source](../../LiftKit/__LKStruct/__LKStruct.gml#L89)
+[source](../LiftKit/__LKStruct/__LKStruct.gml#L89)
 
 ```gml
 struct_contains_value(struct, value)
@@ -23,7 +23,7 @@ Returns `true` if any value in the struct is equal to `value`.
 
 ## struct_filter
 
-[source](../../LiftKit/__LKStruct/__LKStruct.gml#L127)
+[source](../LiftKit/__LKStruct/__LKStruct.gml#L127)
 
 ```gml
 struct_filter(struct, predicate)
@@ -47,7 +47,7 @@ var nums = struct_filter(my_struct, function(key, val) { return is_numeric(val);
 
 ## struct_find
 
-[source](../../LiftKit/__LKStruct/__LKStruct.gml#L108)
+[source](../LiftKit/__LKStruct/__LKStruct.gml#L108)
 
 ```gml
 struct_find(struct, value)
@@ -74,7 +74,7 @@ if ( key != "" )
 
 ## struct_map
 
-[source](../../LiftKit/__LKStruct/__LKStruct.gml#L149)
+[source](../LiftKit/__LKStruct/__LKStruct.gml#L149)
 
 ```gml
 struct_map(struct, transform)
@@ -98,7 +98,7 @@ var doubled = struct_map(stats, function(key, val) { return val * 2; });
 
 ## struct_merge
 
-[source](../../LiftKit/__LKStruct/__LKStruct.gml#L33)
+[source](../LiftKit/__LKStruct/__LKStruct.gml#L33)
 
 ```gml
 struct_merge(...)
@@ -123,7 +123,7 @@ var config = struct_merge(user_config, defaults);
 
 ## struct_merge_deep
 
-[source](../../LiftKit/__LKStruct/__LKStruct.gml#L58)
+[source](../LiftKit/__LKStruct/__LKStruct.gml#L58)
 
 ```gml
 struct_merge_deep(...)
@@ -150,7 +150,7 @@ var config = struct_merge_deep(user_cfg, defaults);
 
 ## variable_struct_get_names_alphabetical
 
-[source](../../LiftKit/__LKStruct/__LKStruct.gml#L6)
+[source](../LiftKit/__LKStruct/__LKStruct.gml#L6)
 
 ```gml
 variable_struct_get_names_alphabetical(struct, ascending)
@@ -169,7 +169,7 @@ Returns an array of all key names in a struct sorted alphabetically. The default
 
 ## variable_struct_get_values
 
-[source](../../LiftKit/__LKStruct/__LKStruct.gml#L17)
+[source](../LiftKit/__LKStruct/__LKStruct.gml#L17)
 
 ```gml
 variable_struct_get_values(struct)

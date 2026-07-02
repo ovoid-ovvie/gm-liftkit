@@ -4,7 +4,7 @@
 
 ## draw_arrow
 
-[source](../../LiftKit/__LKDraw/__LKDraw.gml#L156)
+[source](../LiftKit/__LKDraw/__LKDraw.gml#L156)
 
 ```gml
 draw_arrow(x1, y1, x2, y2, head_size, thickness)
@@ -25,7 +25,7 @@ Draws a line from one point to another with an arrowhead at the endpoint.
 
 ## draw_circle_border
 
-[source](../../LiftKit/__LKDraw/__LKDraw.gml#L134)
+[source](../LiftKit/__LKDraw/__LKDraw.gml#L134)
 
 ```gml
 draw_circle_border(x, y, radius, thickness)
@@ -44,7 +44,7 @@ Draws the border of a circle with a given pixel thickness. GML's `draw_circle` w
 
 ## draw_rectangle_border
 
-[source](../../LiftKit/__LKDraw/__LKDraw.gml#L103)
+[source](../LiftKit/__LKDraw/__LKDraw.gml#L103)
 
 ```gml
 draw_rectangle_border(x1, y1, x2, y2, thickness)
@@ -64,7 +64,7 @@ Draws the border of a rectangle with a given pixel thickness. Unlike GML's `draw
 
 ## draw_reset
 
-[source](../../LiftKit/__LKDraw/__LKDraw.gml#L2)
+[source](../LiftKit/__LKDraw/__LKDraw.gml#L2)
 
 ```gml
 draw_reset()
@@ -76,7 +76,7 @@ Resets all global draw state to defaults: alpha to `1`, colour to `c_white`, fon
 
 ## draw_set_align
 
-[source](../../LiftKit/__LKDraw/__LKDraw.gml#L15)
+[source](../LiftKit/__LKDraw/__LKDraw.gml#L15)
 
 ```gml
 draw_set_align(halign, valign)
@@ -93,7 +93,7 @@ Sets both horizontal and vertical text alignment in a single call.
 
 ## draw_text_aligned
 
-[source](../../LiftKit/__LKDraw/__LKDraw.gml#L74)
+[source](../LiftKit/__LKDraw/__LKDraw.gml#L74)
 
 ```gml
 draw_text_aligned(x, y, w, h, text, halign, valign)
@@ -115,7 +115,7 @@ Draws text aligned within a bounding box. Automatically calculates the correct d
 
 ## draw_text_outline
 
-[source](../../LiftKit/__LKDraw/__LKDraw.gml#L50)
+[source](../LiftKit/__LKDraw/__LKDraw.gml#L50)
 
 ```gml
 draw_text_outline(x, y, text, colour, outline_colour, thickness)
@@ -136,7 +136,7 @@ Draws text with a solid outline by drawing the text in the outline colour in all
 
 ## draw_text_shadow
 
-[source](../../LiftKit/__LKDraw/__LKDraw.gml#L29)
+[source](../LiftKit/__LKDraw/__LKDraw.gml#L29)
 
 ```gml
 draw_text_shadow(x, y, text, shadow_x, shadow_y, shadow_colour, shadow_alpha)
@@ -158,7 +158,7 @@ Draws text with a shadow at a given offset. Preserves the current draw colour an
 
 ## gui_x
 
-[source](../../LiftKit/__LKDraw/__LKDraw.gml#L115)
+[source](../LiftKit/__LKDraw/__LKDraw.gml#L115)
 
 ```gml
 gui_x(_x, camera_id)
@@ -177,7 +177,7 @@ Converts a world space X coordinate to GUI space for the given camera.
 
 ## gui_y
 
-[source](../../LiftKit/__LKDraw/__LKDraw.gml#L124)
+[source](../LiftKit/__LKDraw/__LKDraw.gml#L124)
 
 ```gml
 gui_y(_y, camera_id)

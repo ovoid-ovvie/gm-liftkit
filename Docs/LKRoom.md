@@ -4,7 +4,7 @@
 
 ## room_goto_string
 
-[source](../../LiftKit/__LKRoom/__LKRoom.gml#L3)
+[source](../LiftKit/__LKRoom/__LKRoom.gml#L3)
 
 ```gml
 room_goto_string(_room)
@@ -25,7 +25,7 @@ room_goto_string(json_load("config.json").start_room);
 
 ## room_has_physics_world
 
-[source](../../LiftKit/__LKRoom/__LKRoom.gml#L18)
+[source](../LiftKit/__LKRoom/__LKRoom.gml#L18)
 
 ```gml
 room_has_physics_world(_room)

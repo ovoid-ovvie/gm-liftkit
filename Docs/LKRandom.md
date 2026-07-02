@@ -6,7 +6,7 @@ Probability utilities and a family of weighted random roll functions.
 
 ## flip_coin
 
-[source](../../LiftKit/__LKRandom/__LKRandom.gml#L14)
+[source](../LiftKit/__LKRandom/__LKRandom.gml#L14)
 
 ```gml
 flip_coin()
@@ -24,7 +24,7 @@ var facing_right = flip_coin();
 
 ## rand_chance
 
-[source](../../LiftKit/__LKRandom/__LKRandom.gml#L5)
+[source](../LiftKit/__LKRandom/__LKRandom.gml#L5)
 
 ```gml
 rand_chance(chance, toggle_clamp)
@@ -48,7 +48,7 @@ if ( rand_chance(15) )    // also 15% chance
 
 ## weighted_roll_alternate
 
-[source](../../LiftKit/__LKRandom/__LKRandom.gml#L126)
+[source](../LiftKit/__LKRandom/__LKRandom.gml#L126)
 
 ```gml
 weighted_roll_alternate(array, strength)
@@ -67,7 +67,7 @@ Weights every second element starting from index 0, then returns a random elemen
 
 ## weighted_roll_edge
 
-[source](../../LiftKit/__LKRandom/__LKRandom.gml#L174)
+[source](../LiftKit/__LKRandom/__LKRandom.gml#L174)
 
 ```gml
 weighted_roll_edge(array, strength)
@@ -86,7 +86,7 @@ Weights the first, second, second-to-last, and last elements, then returns a ran
 
 ## weighted_roll_flatten
 
-[source](../../LiftKit/__LKRandom/__LKRandom.gml#L23)
+[source](../LiftKit/__LKRandom/__LKRandom.gml#L23)
 
 ```gml
 weighted_roll_flatten(array, strength)
@@ -105,7 +105,7 @@ Weights every element except the first and last, making extreme values less like
 
 ## weighted_roll_focus
 
-[source](../../LiftKit/__LKRandom/__LKRandom.gml#L199)
+[source](../LiftKit/__LKRandom/__LKRandom.gml#L199)
 
 ```gml
 weighted_roll_focus(array, start_index, end_index, strength)
@@ -126,7 +126,7 @@ Weights every element between `start_index` and `end_index` inclusive, then retu
 
 ## weighted_roll_random
 
-[source](../../LiftKit/__LKRandom/__LKRandom.gml#L150)
+[source](../LiftKit/__LKRandom/__LKRandom.gml#L150)
 
 ```gml
 weighted_roll_random(array, strength, count)
@@ -146,7 +146,7 @@ Weights a number of randomly chosen elements, then returns a random element from
 
 ## weighted_roll_sharpen
 
-[source](../../LiftKit/__LKRandom/__LKRandom.gml#L46)
+[source](../LiftKit/__LKRandom/__LKRandom.gml#L46)
 
 ```gml
 weighted_roll_sharpen(array, strength)
@@ -165,7 +165,7 @@ Weights only the first and last elements, making extreme values more likely. Ret
 
 ## weighted_roll_snipe
 
-[source](../../LiftKit/__LKRandom/__LKRandom.gml#L68)
+[source](../LiftKit/__LKRandom/__LKRandom.gml#L68)
 
 ```gml
 weighted_roll_snipe(array, indexes, strength)
@@ -193,7 +193,7 @@ weighted_roll_snipe(loot_table, [0, 3], 5);
 
 ## weighted_roll_starve
 
-[source](../../LiftKit/__LKRandom/__LKRandom.gml#L98)
+[source](../LiftKit/__LKRandom/__LKRandom.gml#L98)
 
 ```gml
 weighted_roll_starve(array, indexes, strength)

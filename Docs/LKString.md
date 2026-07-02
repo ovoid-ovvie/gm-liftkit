@@ -6,7 +6,7 @@ String utilities including a full case-insensitive counterpart family for GML's 
 
 ## bool_stringify
 
-[source](../../LiftKit/__LKString/__LKString.gml#L7)
+[source](../LiftKit/__LKString/__LKString.gml#L7)
 
 ```gml
 bool_stringify(b, true_label, false_label)
@@ -32,7 +32,7 @@ bool_stringify(fullscreen, "Yes", "No")  // "Yes" or "No"
 
 ## string_contains
 
-[source](../../LiftKit/__LKString/__LKString.gml#L32)
+[source](../LiftKit/__LKString/__LKString.gml#L32)
 
 ```gml
 string_contains(substr, str, case_sensitive)
@@ -52,7 +52,7 @@ Returns `true` if `str` contains `substr`. Case sensitive by default. Configurab
 
 ## string_count_nocase
 
-[source](../../LiftKit/__LKString/__LKString.gml#L51)
+[source](../LiftKit/__LKString/__LKString.gml#L51)
 
 ```gml
 string_count_nocase(substr, str)
@@ -71,7 +71,7 @@ Returns the number of occurrences of `substr` within `str`, case insensitively.
 
 ## string_equals_nocase
 
-[source](../../LiftKit/__LKString/__LKString.gml#L63)
+[source](../LiftKit/__LKString/__LKString.gml#L63)
 
 ```gml
 string_equals_nocase(str1, str2)
@@ -90,7 +90,7 @@ Returns `true` if `str1` and `str2` are equal, ignoring case.
 
 ## string_last_pos_nocase
 
-[source](../../LiftKit/__LKString/__LKString.gml#L166)
+[source](../LiftKit/__LKString/__LKString.gml#L166)
 
 ```gml
 string_last_pos_nocase(substr, str)
@@ -109,7 +109,7 @@ Returns the position of the last occurrence of `substr` within `str`, case insen
 
 ## string_last_pos_ext_nocase
 
-[source](../../LiftKit/__LKString/__LKString.gml#L179)
+[source](../LiftKit/__LKString/__LKString.gml#L179)
 
 ```gml
 string_last_pos_ext_nocase(substr, str, start_pos)
@@ -129,7 +129,7 @@ Returns the position of the last occurrence of `substr` within `str` at or befor
 
 ## string_pad_full
 
-[source](../../LiftKit/__LKString/__LKString.gml#L102)
+[source](../LiftKit/__LKString/__LKString.gml#L102)
 
 ```gml
 string_pad_full(str, _len, char, bias_left, separator, force_separator)
@@ -158,7 +158,7 @@ string_pad_full("hi", 8, "-", true, " ")  // "-- hi --"
 
 ## string_pad_left
 
-[source](../../LiftKit/__LKString/__LKString.gml#L74)
+[source](../LiftKit/__LKString/__LKString.gml#L74)
 
 ```gml
 string_pad_left(str, _len, char)
@@ -183,7 +183,7 @@ string_pad_left("42", 5, " ")   // "   42"
 
 ## string_pad_right
 
-[source](../../LiftKit/__LKString/__LKString.gml#L87)
+[source](../LiftKit/__LKString/__LKString.gml#L87)
 
 ```gml
 string_pad_right(str, _len, char)
@@ -203,7 +203,7 @@ Pads `str` on the right with `char` until it reaches the target length. Returns 
 
 ## string_pos_all
 
-[source](../../LiftKit/__LKString/__LKString.gml#L192)
+[source](../LiftKit/__LKString/__LKString.gml#L192)
 
 ```gml
 string_pos_all(substr, str, start_pos)
@@ -227,7 +227,7 @@ string_pos_all("a", "banana")   // [2, 4, 6]
 
 ## string_pos_all_nocase
 
-[source](../../LiftKit/__LKString/__LKString.gml#L214)
+[source](../LiftKit/__LKString/__LKString.gml#L214)
 
 ```gml
 string_pos_all_nocase(substr, str, start_pos)
@@ -247,7 +247,7 @@ Returns an array of positions of every occurrence of `substr` within `str`, case
 
 ## string_pos_nocase
 
-[source](../../LiftKit/__LKString/__LKString.gml#L141)
+[source](../LiftKit/__LKString/__LKString.gml#L141)
 
 ```gml
 string_pos_nocase(substr, str)
@@ -266,7 +266,7 @@ Returns the position of the first occurrence of `substr` within `str`, case inse
 
 ## string_pos_ext_nocase
 
-[source](../../LiftKit/__LKString/__LKString.gml#L154)
+[source](../LiftKit/__LKString/__LKString.gml#L154)
 
 ```gml
 string_pos_ext_nocase(substr, str, start_pos)
@@ -286,7 +286,7 @@ Returns the position of the first occurrence of `substr` within `str` at or afte
 
 ## string_reflow
 
-[source](../../LiftKit/__LKString/__LKString.gml#L466)
+[source](../LiftKit/__LKString/__LKString.gml#L466)
 
 ```gml
 string_reflow(str, first_line_width, subsequent_line_width)
@@ -315,7 +315,7 @@ for (var i = 0; i < array_length(lines); i++)
 
 ## string_reverse
 
-[source](../../LiftKit/__LKString/__LKString.gml#L236)
+[source](../LiftKit/__LKString/__LKString.gml#L236)
 
 ```gml
 string_reverse(str)
@@ -337,7 +337,7 @@ string_reverse("hello")   // "olleh"
 
 ## string_sanitise / string_sanitize
 
-[source](../../LiftKit/__LKString/__LKString.gml#L258) / [source](../../LiftKit/__LKString/__LKString.gml#L296)
+[source](../LiftKit/__LKString/__LKString.gml#L258) / [source](../LiftKit/__LKString/__LKString.gml#L296)
 
 ```gml
 string_sanitise(str, fill, remove_slashes, remove_quotes, exceptions)
@@ -360,7 +360,7 @@ Removes or replaces characters from a string that are commonly unsafe for file n
 
 ## string_truncate
 
-[source](../../LiftKit/__LKString/__LKString.gml#L518)
+[source](../LiftKit/__LKString/__LKString.gml#L518)
 
 ```gml
 string_truncate(str, max_len, suffix)
@@ -384,7 +384,7 @@ string_truncate("Hello world", 8)   // "Hello..."
 
 ## stringdist_lev
 
-[source](../../LiftKit/__LKString/__LKString.gml#L313)
+[source](../LiftKit/__LKString/__LKString.gml#L313)
 
 ```gml
 stringdist_lev(a, b)
@@ -408,7 +408,7 @@ stringdist_lev("hello", "hello")      // 0
 
 ## stringdist_osa
 
-[source](../../LiftKit/__LKString/__LKString.gml#L344)
+[source](../LiftKit/__LKString/__LKString.gml#L344)
 
 ```gml
 stringdist_osa(a, b)
@@ -427,7 +427,7 @@ Returns the Optimal String Alignment distance between two strings. Similar to Le
 
 ## stringdist_find_closest
 
-[source](../../LiftKit/__LKString/__LKString.gml#L382)
+[source](../LiftKit/__LKString/__LKString.gml#L382)
 
 ```gml
 stringdist_find_closest(str, threshold, targets)
@@ -456,7 +456,7 @@ if ( match != "" )
 
 ## stringdist_find_closest_multi
 
-[source](../../LiftKit/__LKString/__LKString.gml#L409)
+[source](../LiftKit/__LKString/__LKString.gml#L409)
 
 ```gml
 stringdist_find_closest_multi(str, threshold, ...)

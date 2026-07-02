@@ -4,7 +4,7 @@
 
 ## camera_get_centre / camera_get_center
 
-[source](../../LiftKit/__LKCamera/__LKCamera.gml#L5) / [source](../../LiftKit/__LKCamera/__LKCamera.gml#L18)
+[source](../LiftKit/__LKCamera/__LKCamera.gml#L5) / [source](../LiftKit/__LKCamera/__LKCamera.gml#L18)
 
 ```gml
 camera_get_centre(cam_id)
@@ -28,7 +28,7 @@ draw_circle(centre.x, centre.y, 8, false);
 
 ## point_in_view
 
-[source](../../LiftKit/__LKCamera/__LKCamera.gml#L28)
+[source](../LiftKit/__LKCamera/__LKCamera.gml#L28)
 
 ```gml
 point_in_view(px, py, cam_id)
@@ -55,7 +55,7 @@ if ( point_in_view(enemy.x, enemy.y, camera_get_active()) )
 
 ## rect_in_view
 
-[source](../../LiftKit/__LKCamera/__LKCamera.gml#L49)
+[source](../LiftKit/__LKCamera/__LKCamera.gml#L49)
 
 ```gml
 rect_in_view(x1, y1, x2, y2, cam_id)

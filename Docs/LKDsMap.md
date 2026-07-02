@@ -6,7 +6,7 @@ Utilities for working with DS Maps alongside structs.
 
 ## ds_map_to_struct
 
-[source](../../LiftKit/__LKDsMap/__LKDsMap.gml#L6)
+[source](../LiftKit/__LKDsMap/__LKDsMap.gml#L6)
 
 ```gml
 ds_map_to_struct(map)
@@ -29,7 +29,7 @@ show_debug_message(s.some_key);
 
 ## ds_map_create_from_struct
 
-[source](../../LiftKit/__LKDsMap/__LKDsMap.gml#L25)
+[source](../LiftKit/__LKDsMap/__LKDsMap.gml#L25)
 
 ```gml
 ds_map_create_from_struct(struct)
