@@ -1,12 +1,33 @@
-/// @desc Rolls a random chance from 0 to 100 percent, returning true or false. Accepts decimals and full percentages.
+/// @desc Rolls a random chance from 0 to 100 percent expressed as a value from 0 to 1, returning true or false.
 /// @param {Real} chance
-/// @param {Bool} [toggle_clamp] Toggles clamping the result. Defaults to true unless changed in __LKConfig
+/// @param {Bool} [toggle_clamp] Toggles clamping the result.
 /// @returns {Bool}
 function rand_chance(chance, toggle_clamp = LK_RAND_CHANCE_CLAMP_DEFAULT)
 {
-    if ( chance > 1 ) then chance /= 100;
-    if ( toggle_clamp ) then chance = clamp(chance, 0, 1);
     return ( random(1) <= chance );
+}
+
+/// @desc Rolls a random chance and returns the index of the bucket it lands in. Each argument is a probability (0-100%) expressed as a value from 0 to 1, automatically sorted to ensure correct function. Returns undefined if no arguments are supplied. Otherwise, the return value will match the index of the largest argument provided which the roll falls under, indicating which bucket the roll lands in.
+/// @param {Real} ...thresholds Probability thresholds from 0 to 1.
+/// @returns {Real|Undefined}
+function rand_chance_ext()
+{
+	var _array = variable_clone(argument);
+	array_sort(_array, true);
+	if ( argument_count == 0 )
+	{
+		return undefined;
+	}
+	var _roll = random(1);
+	var _index = 0;
+	for (var i = 0; i < argument_count; i++)
+	{
+		if ( _roll <= _array[i] )
+		{
+			_index = i;
+		}
+	}
+	return _index;
 }
 
 /// @desc Randomly returns either true or false.
